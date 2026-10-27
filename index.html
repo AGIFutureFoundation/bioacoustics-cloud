@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAVE — Wild Animal Voice Engine | Bioacoustics Platform</title>
+  <meta name="description" content="WAVE is an AI-powered bioacoustics platform that translates, visualizes, and researches animal communication in real time — whale songs, bird calls, elephant rumbles, and wolf howls, decoded in 5–7 seconds." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">〜 WAVE</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="https://github.com/WAVETranslator" target="_blank" rel="noopener">GitHub ↗</a></li>
+        <li><a href="#connect" class="btn btn-primary">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Wild Animal Voice Engine</p>
+        <h1>Listen deeply. <span class="accent">Decode the voices of Earth.</span></h1>
+        <p class="lead">WAVE is an AI-powered bioacoustics platform that translates, visualizes, and researches animal communication in real time — whale songs, bird calls, elephant rumbles, and wolf howls, decoded in 5–7 seconds.</p>
+        <div class="hero-actions">
+          <a href="#membership" class="btn btn-primary">Become a member</a>
+          <a href="#connect" class="btn btn-ghost">Connect with the team</a>
+        </div>
+        <div class="stats-grid">
+          <div class="stat"><span class="stat-number">12,000+</span><span class="stat-label">species covered</span></div>
+          <div class="stat"><span class="stat-number">5–7s</span><span class="stat-label">real-time translation</span></div>
+          <div class="stat"><span class="stat-number">&lt;30s</span><span class="stat-label">custom model training</span></div>
+        </div>
+        <p class="lead" style="margin-top:32px"><strong>Built for</strong> — Field researchers • Conservationists • Educators • Open-source developers</p>
+      </div>
+    </section>
+
+    <!-- WATCH -->
+    <section id="watch" class="section">
+      <div class="container">
+        <h2 class="section-title">See WAVE in motion</h2>
+        <p class="section-sub">A short look at how WAVE listens across oceans, forests, and savannas — and turns raw sound into meaning.</p>
+        <!-- EMBED: replace with the WAVE overview video ID -->
+        <div class="embed-card" data-youtube-id="" style="max-width:760px;margin:0 auto">
+          <div class="embed-facade"><span class="embed-play">▶</span><p>Watch the WAVE overview on YouTube</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Bioacoustic AI, built for real research</h2>
+        <p class="section-sub">Powered by the NatureLM-audio and Perch 2.0 foundation models, validated against the BEANS benchmark.</p>
+        <div class="grid-3">
+          <article class="card mechanism">
+            <div class="mech-icon">🎙️</div>
+            <h3>Hands-free voice translation</h3>
+            <p>Real-time, voice-activated species detection and translation in 5–7 seconds. No manual input required in the field.</p>
+          </article>
+          <article class="card mechanism">
+            <div class="mech-icon">🧬</div>
+            <h3>Custom acoustic fingerprinting</h3>
+            <p>Train custom ML models in under 30 seconds with as few as 5 audio samples — identify individuals, populations, and dialects.</p>
+          </article>
+          <article class="card mechanism">
+            <div class="mech-icon">🗂️</div>
+            <h3>Deep integration &amp; workflow hub</h3>
+            <p>A central command center with automated workflows, unified search, and cross-species pattern discovery across your datasets.</p>
+          </article>
+          <article class="card mechanism">
+            <div class="mech-icon">📊</div>
+            <h3>Advanced visualizations</h3>
+            <p>Interactive Voronoi diagrams for behavioral correlations and Superlet transforms for ultra-high-resolution spectrograms.</p>
+          </article>
+          <article class="card mechanism">
+            <div class="mech-icon">📡</div>
+            <h3>Edge-ready deployment</h3>
+            <p>Under-2MB models run on-device with TinyML for offline monitoring at remote stations and on hydrophones.</p>
+          </article>
+          <article class="card mechanism">
+            <div class="mech-icon">🌍</div>
+            <h3>Land &amp; marine coverage</h3>
+            <p>One platform for terrestrial and underwater bioacoustics — from rainforest canopies to deep-ocean soundscapes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- TECHNOLOGY -->
+    <section id="technology" class="section">
+      <div class="container">
+        <h2 class="section-title">The Technical Triad</h2>
+        <p class="section-sub">Three layers turn raw sound into structured, comparable meaning.</p>
+        <div class="grid-3">
+          <article class="card">
+            <span class="article-cat">01 · Capture</span>
+            <h3>Bio-logging &amp; edge AI</h3>
+            <p>Hydrophones, loggers, and sensors capture signal from dense environmental noise, with inference at the edge. On-device (edge) inference with sub-2MB TinyML models works offline at remote stations and on marine hydrophones — real-time species presence across land and sea.</p>
+          </article>
+          <article class="card">
+            <span class="article-cat">02 · Resolve</span>
+            <h3>The Superlet Transform</h3>
+            <p>High-resolution signal processing adapted from neuroscience. It revealed the Chagos pygmy blue whale song is pulsed, not continuous. Higher time-frequency resolution than standard wavelet analysis, revealing fine structure inside calls — pulses, harmonics, transitions.</p>
+          </article>
+          <article class="card">
+            <span class="article-cat">03 · Understand</span>
+            <h3>Foundation models</h3>
+            <p>NatureLM-audio and Perch 2.0 map vocal patterns without supervision — models trained on one species can help organize another's vocalizations. Zero-shot species detection across thousands of species, validated against the BEANS benchmark.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO LIBRARY -->
+    <section id="videos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Video library</h2>
+        <p class="section-sub">Go deeper on the science.</p>
+        <div class="grid-3">
+          <!-- EMBED: add YouTube video IDs to activate -->
+          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>WAVE overview</p></div></div>
+          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>The Superlet Transform explained</p></div></div>
+          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Sound Translator walkthrough</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCES / DATASETS -->
+    <section id="resources" class="section">
+      <div class="container">
+        <h2 class="section-title">Resources</h2>
+        <p class="section-sub">Open datasets and archives WAVE plugs into. Building a research integration? <a href="#connect">Talk to us about data access →</a></p>
+        <div class="article-list">
+          <a class="article-row" href="https://www.whoi.edu/" target="_blank" rel="noopener"><span class="article-cat">Open dataset</span><span class="article-title">Woods Hole Oceanographic Institution — 15k+ annotated clips, 60+ species. Marine mammal vocalizations, freely downloadable.</span><span class="article-cta">Open ↗</span></a>
+          <a class="article-row" href="https://www.inaturalist.org/" target="_blank" rel="noopener"><span class="article-cat">Public API</span><span class="article-title">iNaturalist Sounds (iNatSounds) — 230k+ audio files, 5,500+ species. Citizen-science multi-taxa audio, open archive.</span><span class="article-cta">Open ↗</span></a>
+          <a class="article-row" href="https://www.earthspecies.org/" target="_blank" rel="noopener"><span class="article-cat">Open dataset</span><span class="article-title">Earth Species Library — multi-modal ML datasets + BEANS benchmark for machine learning.</span><span class="article-cta">Open ↗</span></a>
+          <a class="article-row" href="https://www.projectceti.org/" target="_blank" rel="noopener"><span class="article-cat">Open research</span><span class="article-title">Project CETI — large-scale sperm whale acoustic + behavioral data. Decoding sperm whale communication.</span><span class="article-cta">Open ↗</span></a>
+          <a class="article-row" href="https://www.museumfuernaturkunde.berlin/" target="_blank" rel="noopener"><span class="article-cat">Archive</span><span class="article-title">Animal Sound Archive — 120k+ recordings, ~1,800 bird + 580 mammal species. Third-largest bioacoustic collection worldwide.</span><span class="article-cta">Open ↗</span></a>
+          <a class="article-row" href="https://www.gbif.org/" target="_blank" rel="noopener"><span class="article-cat">Public API</span><span class="article-title">GBIF — billions of occurrence records. Species occurrence &amp; biodiversity data, with API.</span><span class="article-cta">Open ↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">〜 Roadmap — where we're headed</h2>
+        <div class="grid-3">
+          <article class="card"><span class="article-cat">Now</span><h3>Real-time engine</h3><p>Voice translation, custom fingerprinting, visualizations, and the integration hub — all live.</p></article>
+          <article class="card"><span class="article-cat">Next</span><h3>Open-source community</h3><p>Grow the MIT-licensed engine and developer docs on GitHub; welcome contributors.</p></article>
+          <article class="card"><span class="article-cat">Later</span><h3>Agentic swarm</h3><p>An institutional AGI framework of cooperating specialized agents for ecosystem-scale monitoring.</p></article>
+        </div>
+      </div>
+    </section>
+    <!-- MEMBERSHIP -->
+    <section id="membership" class="section">
+      <div class="container">
+        <h2 class="section-title">Join the WAVE</h2>
+        <p class="section-sub">Get early access to the platform, priority support, and a voice in the roadmap.</p>
+        <div class="grid-3">
+          <article class="card">
+            <span class="article-cat">Researcher</span>
+            <h3>Free</h3>
+            <p>Core translation engine · community support · MIT open-source engine.</p>
+            <p style="margin-top:14px"><a class="btn btn-ghost" href="#">Get started</a></p>
+          </article>
+          <article class="card" style="border-color: var(--accent)">
+            <span class="article-cat">Most popular</span>
+            <h3>Pro Membership</h3>
+            <p>Custom fingerprinting · workflow automation · priority support · early features.</p>
+            <p style="margin-top:14px"><a class="btn btn-primary" href="#">Reserve membership</a></p>
+          </article>
+          <article class="card">
+            <span class="article-cat">Institution</span>
+            <h3>Let's talk</h3>
+            <p>Multi-site datasets · dedicated onboarding · custom integrations.</p>
+            <p style="margin-top:14px"><a class="btn btn-ghost" href="#connect">Get started</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section id="connect" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Talk to the WAVE team</h2>
+        <p class="section-sub">Researching a species? Building on the open-source engine? Exploring a partnership or membership? Tell us what you're working on.</p>
+        <p style="margin-bottom:24px">✉️ <a href="mailto:wave@bioacoustics.cloud">wave@bioacoustics.cloud</a> &nbsp;·&nbsp; 💻 <a href="https://github.com/WAVETranslator" target="_blank" rel="noopener">github.com/WAVETranslator</a></p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+            <label>Email<input type="email" name="email" required placeholder="you@example.com" /></label>
+          </div>
+          <label>Topic
+            <select name="topic">
+              <option>Research use</option>
+              <option>Partnership</option>
+              <option>Membership</option>
+              <option>Media / press</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us what you're working on..."></textarea></label>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note" id="formNote" hidden>Thanks — your message has been noted. We'll be in touch.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="brand">〜 WAVE</p>
+        <p>The world's most accessible AI-powered bioacoustics platform for translating, visualizing, and researching animal communication in real time. MIT licensed engine.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#features">Features</a>
+        <a href="#technology">Technology</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#resources">Resources</a>
+        <a href="#membership">Membership</a>
+        <a href="#connect">Contact</a>
+      </nav>
+      <div class="social-links">
+        <!-- TODO: replace # with real profile URLs -->
+        <a href="https://github.com/WAVETranslator" aria-label="GitHub" rel="noopener" target="_blank">GitHub</a>
+        <a href="#" aria-label="X (Twitter)" rel="noopener" target="_blank">X</a>
+        <a href="#" aria-label="YouTube" rel="noopener" target="_blank">YouTube</a>
+        <a href="#" aria-label="Discord" rel="noopener" target="_blank">Discord</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 WAVE Bioacoustics Platform. MIT licensed engine.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
