@@ -281,4 +281,4 @@ Only items verified in sources checked this pass:
 
 - Firecrawl scrapes (10): example.com (access check), birdnet.cornell.edu/about, github.com/birdnet-team/birdnet-V3.0-dev, xeno-canto.org, en.wikipedia.org/wiki/Macaulay_Library, github.com/google-research/perch, earthspecies.org/what-we-do/library (404), projectceti.org/research/index, huggingface.co/datasets/EarthSpeciesProject/NatureLM-audio-training, museumfuernaturkunde.berlin/en/research/animalsoundarchive (404). All others succeeded.
 - Web searches: 13 queries across BirdNET, Perch, NatureLM, Xeno-canto, Macaulay, Watkins, iNaturalist, Earth Species Library, CETI, Animal Sound Archive, GBIF, BEANS, DolphinGemma, BirdNET licensing.
-- No live site tree was edited; nothing was pushed, deployed, published, emailed, or shared. This file is local staging only.
+- No live site tree was edited. This file is published in this repo's `research/` folder as a research brief.
